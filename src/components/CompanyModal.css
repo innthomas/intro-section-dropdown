@@ -1,0 +1,23 @@
+.companyModal{
+    background-color: #fff;
+    position:fixed;
+    top:50px;
+    left:260px;
+    box-shadow: rgba(48, 48, 49, 0.2) 0px 7px 29px 0px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: small;
+    max-height:fit-content;
+}
+
+.companyModal div{
+    padding-bottom:10px ;
+}
+
+@media (max-width:375px){
+    .companyModal{
+        position:relative;
+        top: 0;
+        left:0;
+    }
+}

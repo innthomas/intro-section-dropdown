@@ -1,0 +1,96 @@
+.App-header{
+  justify-content: space-between;
+  margin-block: 20px;
+  opacity: 70%;
+}
+
+.App-headerMain{
+    justify-content: space-around;
+   
+}
+.App-headerMain > div{
+    padding-inline: 20px;
+    cursor: pointer;
+}
+.App-headerSide{
+    margin-inline: 20px;
+}
+.App-headerSide > div{
+    margin-inline: 20px;
+    cursor: pointer;
+}
+.App-headerSideRegister{
+    padding: 4px 8px;
+    border: 2px solid ;
+    border-radius: 10px;
+}
+.App-headerSideLogin{
+    margin-top: 4px;
+}
+.App-headerMainLogoImg{
+    opacity:100%;
+}
+.App-headerFeatures-img ,
+.App-headerCompany-img {
+    margin-left: 10px;
+}
+.App-headerFeatures:hover{
+    display: block;
+}
+.modal{
+    position:fixed;
+    top:50px;
+    left:150px;
+}
+.hide{
+    display: none;
+}
+@media (max-width: 755px)  {
+    .career,.about{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .menu-icon, .close-icon{
+        margin-right:15px;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+    .close-icon{
+        z-index: 2000;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+    .menuContainer{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 200vh;
+        background-color: rgb(136, 130, 130, 1);
+        z-index: 100;
+        opacity: 1;
+    }
+  
+    .menuModal{
+        position: absolute;
+        top: 0;
+        left: 50px;
+        width: 80vw;
+        height:200vh ;
+       background: #ffff;
+        z-index: 1000;
+       opacity: 1 !important;
+
+    }
+    
+
+
+}

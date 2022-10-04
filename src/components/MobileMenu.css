@@ -1,0 +1,19 @@
+.mobilemenu{
+   margin-top: 50px;
+   margin-inline:20px;
+
+}
+.mobilemenu > div{
+    margin-bottom: 10px;
+}
+.login-register{
+    text-align: center;
+}
+.login-register > div{
+    padding-block: 10px;
+}
+.register{
+    border: 2px solid ;
+    border-radius: 20px;
+    padding-block: 5px;
+}
